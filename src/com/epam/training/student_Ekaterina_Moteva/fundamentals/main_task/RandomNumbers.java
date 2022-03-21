@@ -2,6 +2,7 @@ package com.epam.training.student_Ekaterina_Moteva.fundamentals.main_task;
 
 public class RandomNumbers {
     public static void main(String[] args) {
+        //Вывести заданное количество случайных чисел с переходом и без перехода на новую строку.
         randomNumbersOnNewLine(5);
         randomNumbersOnOneLine(5);
     }
