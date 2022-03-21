@@ -1,9 +1,7 @@
 package com.epam.training.student_Ekaterina_Moteva.fundamentals.main_task;
 
-public class ReverseArgs {
+public class RandomNumbers {
     public static void main(String[] args) {
-        for (int i = args.length-1; i >= 0; i--){
-            System.out.println(args[i]);
-        }
+        
     }
 }
