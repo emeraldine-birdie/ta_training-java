@@ -14,8 +14,8 @@ public class ShortestAndLongestNumber {
             list.add(n);
         }
         Collections.sort(list);
-        System.out.println("The shortest number is " + list.get(0) + ", length is " + list.get(0).toString().length());
-        System.out.println("The longest number is " + list.get(list.size()-1) + ", length is " +
+        System.out.println("The shortest number is " + list.get(0) + ", the length is " + list.get(0).toString().length());
+        System.out.println("The longest number is " + list.get(list.size()-1) + ", the length is " +
                 list.get(list.size()-1).toString().length());
     }
 }
