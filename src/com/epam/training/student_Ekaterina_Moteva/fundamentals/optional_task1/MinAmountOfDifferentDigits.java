@@ -26,7 +26,7 @@ public class MinAmountOfDifferentDigits {
                 char[] ch = list.get(i).toString().toCharArray();
                 tmp = ch.length;
                 for (int j = 0; j < ch.length; j++){
-                    for (int k = j+1; k < ch.length-1; k++){
+                    for (int k = j+1; k < ch.length; k++){
                         if (ch[k]==ch[j]){
                             tmp--;
                         }
