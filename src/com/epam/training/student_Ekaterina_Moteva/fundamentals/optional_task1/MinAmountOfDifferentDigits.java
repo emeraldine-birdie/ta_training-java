@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class MinAmountOfDifferentDigits {
     public static void main(String[] args) {
+        // Найти число, в котором количество различных цифр минимально. Если таких чисел несколько, найти первое из них.
         Scanner scanner = new Scanner(System.in);
         List<Integer> list = new ArrayList<>();
         int result = 0;

@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class ShortestAndLongestNumber {
     public static void main(String[] args) {
+        //Найти самое короткое и самое длинное число. Вывести найденные числа и их длину.
         Scanner scanner = new Scanner(System.in);
         List<Integer> list = new ArrayList<>();
         while (scanner.hasNextInt()){
